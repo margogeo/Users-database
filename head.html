@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Online reminder</title>
+</head>
+<body background="paperA.jpg">
+<script LANGUAGE='JavaScript'>
+function HttpLoadPost(Address, Data) {
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("POST", Address, false);
+xmlhttp.send(Data);
+return xmlhttp.responseText;  
+}
+
+function HttpLoadGet(Address) {
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", Address, false);
+xmlhttp.send(null);
+return xmlhttp.responseText;  
+}
+</script>
