@@ -1,0 +1,51 @@
+body {
+	background-color: rgba(228,190,255,0.8);
+}
+
+input[name="edit"] {
+	width : 250px;
+}
+
+input:hover {
+	background-color : lightyellow;
+}
+
+.area { 
+  width:500px; height: 250px; 
+  border: 5px solid rgba(181,93,99,0.7);  
+  border-radius:8px;
+  transition : border-color 0.2s ease-in;
+} 
+.area#one:hover, .area#two:hover, .area#three:hover, .area#outp:hover, .newreg:hover, .oldreg:hover {
+	border-color : yellow;
+}
+
+a:hover {
+	color : red;
+}
+
+.area#one {
+	background-color: rgb(158,250,255,0.7);
+}
+
+.area#two {
+	background-color: rgba(255,99,71,0.5);
+}
+
+.area#three {
+	background-color: rgba(60,179,113,0.7);
+}
+
+.area#outp {
+	background-color: rgba(200,200,0,0.5);
+	text-align : center;
+}
+
+.reg {
+	width : 70%;
+	height : 30%;
+}
+.oldreg, .newreg {
+	border: 5px solid rgba(255,99,71,0.5);
+	border-radius:8px;
+}
